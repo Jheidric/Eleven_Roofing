@@ -1,0 +1,5 @@
+/* staff.css */
+.staff-banner{background:linear-gradient(135deg,rgba(76,175,114,.12),rgba(76,175,114,.04));border:1px solid rgba(76,175,114,.3);border-radius:var(--r2);padding:1.4rem;margin-bottom:1.75rem;display:flex;align-items:center;gap:1rem}
+.staff-icon{font-size:2rem}
+.staff-banner h2{font-family:var(--serif);font-size:1.3rem;color:var(--success);margin-bottom:.2rem}
+.staff-banner p{color:var(--muted);font-size:.835rem;font-weight:300}

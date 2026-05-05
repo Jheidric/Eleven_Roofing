@@ -1,0 +1,10 @@
+/* admin.css */
+.filter-bar{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:2rem}
+.filter-btn{border:1px solid var(--border);background:var(--bg2);color:var(--muted);padding:.42rem 1rem;border-radius:var(--r);font-size:.82rem;transition:all .2s;text-decoration:none}
+.filter-btn.active,.filter-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.lc-item{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r2);padding:1rem;cursor:pointer;transition:all .2s;margin-bottom:.65rem}
+.lc-item:hover,.lc-item.selected{border-color:var(--accent)}
+.lc-user{display:flex;align-items:center;gap:.6rem;margin-bottom:.35rem}
+.lc-av{width:26px;height:26px;border-radius:50%;background:var(--accent-dim);display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:500;color:var(--accent);flex-shrink:0}
+.lc-name{font-size:.845rem;font-weight:500}.lc-time{font-size:.7rem;color:var(--muted);margin-left:auto}
+.lc-preview{font-size:.78rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}

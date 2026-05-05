@@ -1,0 +1,18 @@
+/* sysadmin.css */
+.lock-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.lock-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r2);padding:1.25rem}
+.lock-card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem}
+.lock-card-title{font-size:.9rem;font-weight:500}
+.lock-card-desc{font-size:.8rem;color:var(--muted);font-weight:300;margin-bottom:.85rem}
+.lock-status{font-size:.75rem;font-weight:500}
+.lock-status.unlocked{color:var(--success)}.lock-status.locked{color:var(--danger)}
+.toggle{position:relative;width:44px;height:24px;display:inline-block}
+.toggle input{opacity:0;width:0;height:0}
+.toggle-slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:var(--bg4);border-radius:24px;transition:.3s}
+.toggle-slider::before{position:absolute;content:"";height:18px;width:18px;left:3px;bottom:3px;background:var(--muted);border-radius:50%;transition:.3s}
+.toggle input:checked + .toggle-slider{background:var(--danger)}
+.toggle input:checked + .toggle-slider::before{transform:translateX(20px);background:#fff}
+.backup-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0;border-bottom:1px solid var(--border)}
+.backup-row:last-child{border-bottom:none}
+.backup-name{font-size:.855rem;font-weight:500}
+.backup-meta{font-size:.75rem;color:var(--muted);margin-top:.15rem}

@@ -1,0 +1,14 @@
+/* user/css/user.css */
+.inq-item{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r2);padding:1.2rem;margin-bottom:1rem}
+.inq-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.6rem}
+.inq-meta{font-size:.72rem;color:var(--muted);margin-bottom:.25rem}
+.inq-subj{font-size:.9rem;font-weight:500}
+.inq-msg{font-size:.845rem;color:var(--muted);font-weight:300;line-height:1.65}
+.inq-reply{background:var(--bg2);border:1px solid rgba(76,175,114,.25);border-radius:var(--r);padding:.85rem 1rem;margin-top:.85rem}
+.inq-reply-lbl{font-size:.72rem;color:var(--success);text-transform:uppercase;letter-spacing:.5px;font-weight:500;margin-bottom:.3rem}
+.inq-reply p{font-size:.835rem;color:var(--muted);font-weight:300;line-height:1.6}
+.quick-link{display:flex;gap:.75rem;align-items:center;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r2);padding:1.1rem;cursor:pointer;transition:all .2s;text-decoration:none;color:inherit}
+.quick-link:hover{border-color:var(--accent)}.quick-link span{font-size:1.2rem}
+.quick-link h4{font-size:.875rem;font-weight:500;margin-bottom:.15rem}
+.quick-link p{font-size:.775rem;color:var(--muted);font-weight:300}
+.mb-2{margin-bottom:1rem}
