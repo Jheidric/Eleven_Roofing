@@ -1,0 +1,11 @@
+/* owner.css */
+.owner-banner{background:linear-gradient(135deg,rgba(155,89,182,.15),rgba(155,89,182,.05));border:1px solid rgba(155,89,182,.3);border-radius:var(--r2);padding:1.5rem;margin-bottom:1.75rem;display:flex;align-items:center;gap:1.25rem}
+.owner-crown{font-size:2.5rem}
+.owner-banner h2{font-family:var(--serif);font-size:1.4rem;color:var(--owner);margin-bottom:.25rem}
+.owner-banner p{color:var(--muted);font-size:.845rem;font-weight:300}
+.user-row{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--border)}
+.user-row:last-child{border-bottom:none}
+.user-info{display:flex;align-items:center;gap:.75rem}
+.user-row-av{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:600;flex-shrink:0}
+.user-row-name{font-size:.9rem;font-weight:500}
+.user-row-email{font-size:.78rem;color:var(--muted)}
